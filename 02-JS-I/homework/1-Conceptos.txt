@@ -1,0 +1,54 @@
+
+    Variables
+Las variables con contenedores donde guardamos elementos para usarlos luego.
+De forma gráfica: si pensamos que una variable es como una caja, podemos guardar lo que que queramos (mientras entre) para usarlo luego.
+Como ejemplo: en la caja guardamos unas zapatillas, luego cuando necesitemos usarlas, iremos a la caja y tomaremos las zapatillas. En el caso de la variable, en ésta guardaremos un valor, y cuando lo necesitemos, la llamaremos nuevamente para recuperar el valor guardado.
+Ahora, hay que tener en cuenta que las cajas no pueden guardar cualquier cosa (no podemos guardar un auto en una caja de alfajores, por ejemplo). Para poder guardar algo en una caja, primero tiene que entrar, y además, hay que tener cuidado del peso, forma y material de lo que guardemos (para que no se rompan ni la caja ni el objeto que guardamos)
+De la misma manera, las variables tienen que respetar qué tipo de dato vamos a guardar; y no pueden guardar otro (en principio). Por ejemplo, si queremos guardar un nombre, no podemos querer guardar un número.
+
+    Strings
+Es un "Tipo de dato"
+Siguiendo con el ejemplo anterior, los Strings son las "cajas" que se usan para guardar palabras, oraciones, letras, símbolos, etc.
+Es decir, cualquier "cosa" que escribamos con el teclado y la necesitemos almacenar tal cual la escribimos, lo hacemos en Strings.
+
+    Funciones (argumentos, return)
+
+Las funciones son un conjunto de instrucciones que se ejecutarán cada vez que la llamemos (o invoquemos); y nos devolverán un resultado.
+Un ejemplo sencillo, definimos una función que calcule el área de un cuadrado lados de un largo determinado.
+Siempre que la llamemos, nos devolverá el área de ese cuadrado definido.
+
+Ahora, las funciones permiten que se les pase información, para realizas las operaciones que hayamos definidas pero sobre los valores que les pasemos.
+A estos valores (que pueden ser números, texto, etc.) se los denomina argumentos.
+
+Una función que acepte argumentos los trabajará internamente según sus instrucciones y devolverá el resultado correspondiente.
+Como ejemplo, imaginemos que queremos calcular el área de otros 5 cuadrados con diferente longitud de lado.
+
+Para esto se define a la función para que acepte como parámetro el lado del cuadrado; y con éste calculará el área y nos la devolverá.
+
+En código, las funciones se declaran:
+
+function (argumentos){
+    código a ejecutar;
+    return resultado;
+}
+
+Cuando se llega a la instrucción de "return" la función deja ejecutar cualquier isntrucción y devuelve el valor definido en la sentencia return.
+
+
+    Declaraciones if
+
+La estructura IF es una estructura utilizada para controlar el flujo de ejecución del programa en base a condiciones fijadas.
+En otras palatras, el IF es la manera que tenemos de indicarle al programa que haga evalúe algo (la condición) y haga una cosa si es verdadera u otra si es falso.
+
+En código:
+
+if(condicion) {
+    código a ejecutar en caso de que la condición sea verdadera (true)
+} else {
+    código a ejecutar en caso de que la condición sea falsa (false)
+}
+
+    Valores booleanos (true, false)
+
+Los elementos booleanos puede tener únicamente uno de dos valores: true - false.
+Son elementos lógicos que resultan de una evaluación de condición; lo que permite luego decidir la ejecución de código.
