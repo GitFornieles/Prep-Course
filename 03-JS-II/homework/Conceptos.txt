@@ -1,0 +1,14 @@
+    for
+Cuando queremos que el código repita un cierto bloque de instrucciones una cantidad determinada de veces, podemos usar el ciclo for
+
+El ciclo for es una estructura que hará que el programa ejecute las instrucciones que incluya dentro de sus {} hasta que se cumpla la condición de escape.
+
+La estructura que se usa es for(declaracion de una variable de control, condición que se deberá cumplir para salir del ciclo, incremento de la variable)
+
+Declaracion de una variable de control
+En este sección declararemos una variable que usaremos para monitorear las repeticiones, y para poder afectar el contenido del bloque que depende del número de iteración
+
+Condición que se deberá cumplir para salir del ciclo
+
+
+    &&, ||, !
